@@ -1,0 +1,14 @@
+// Tests whether the block within try will be executed.
+var tryFunction = fun() {
+  try 
+    println("Test succesfull: Executed try"); 
+  catch (e)  
+    println("Test failed: executed catch ", e);
+}; 
+
+
+println("Function should return void: ", tryFunction()); 
+println("Test successful: Program executed to finish"); 
+
+
+

@@ -1,0 +1,11 @@
+var throwFunction = fun(a) {
+  try 
+    if (a < 10)
+      throw "Too small!"; 
+    else ;
+  catch(e) {
+    println("Test successful, Exception: ", e); 
+  }
+}; 
+
+ throwFunction(3); 

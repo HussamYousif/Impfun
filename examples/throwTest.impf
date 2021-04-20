@@ -1,0 +1,7 @@
+println("Testing throw statements"); 
+// Tests throw will execute program.
+var throwError = fun() {
+  throw "Test successful program should terminate"; 
+}; 
+
+throwError(); 

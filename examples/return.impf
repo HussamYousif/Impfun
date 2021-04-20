@@ -1,0 +1,15 @@
+println("Testing return. "); 
+
+var max = fun (a, b) {
+    if (a >= b)
+       return a;
+    else
+      return b;
+};
+
+println("Return a:5"); 
+println(max(5,3)); 
+println("Return b:6"); 
+println(max(5,6)); 
+
+
